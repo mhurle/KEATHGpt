@@ -1,24 +1,49 @@
 {
-    "defaultModel": "gpt4o",
-    "defaultType": "openai",
-    "defaultAuth": "api-key",
-    "defaultBase": "",
-    "defaultVersion": "",
-    "defaultKey": "sk-m4tLLp6vYGkBJ6doiwEylVdNpmg8ABE57sm-PU8cjGT3BlbkFJZ0ZhLTNTvHhYDBrfKsTdCTwSRMLo-f9AiD9Cw6c7gA",
-    "availableModels": [
-      { "value": "gpt4o", "label": "gpt4o" },
-      { "value": "gpt o3 mini", "label": "gpt o3 mini" },
-      { "value": "claude 3.5 sonnet", "label": "claude 3.5 sonnet" },
-      { "value": "deepseek R1", "label": "deepseek R1" }
-    ],
-    "writingCharacters": [],
-    "writingTones": [],
-    "writingStyles": [],
-    "writingFormats": [],
-    "showDownloadLink": false,
-    "allowDarkModeToggle": true,
-    "allowSettingsModal": false,
-    "allowDatabaseModal": true,
-    "showTwitterLink": false,
-    "showFeedbackLink": false
-  }
+  "defaultModel": "gpt4o",
+  "defaultType": "openai",
+  "defaultAuth": "api-key",
+  "defaultBase": "",
+  "defaultKey": "",
+  "availableModels": [
+    { "value": "gpt4o", "label": "gpt4o" },
+    { "value": "gpt o3 mini", "label": "gpt o3 mini" },
+    { "value": "claude 3.5 sonnet", "label": "claude 3.5 sonnet" },
+    { "value": "deepseek R1", "label": "deepseek R1" }
+  ],
+  "modelConfigs": {
+    "gpt4o": {
+      "type": "custom",
+      "auth": "api-key",
+      "base": "https://your.internal.gpt4o.endpoint", 
+      "apiKey": "sk-xHRXsvj6Et-pkQsD8qxvc_UT-qB9gCfPhA1nJ_g5fST3BlbkFJ71XGUoHQL_kcjlCPiaWeplTHVRimvEsruXtSfTS14A"
+    },
+    "gpt o3 mini": {
+      "type": "openai",
+      "auth": "api-key",
+      "base": "",
+      "apiKey": "sk-xHRXsvj6Et-pkQsD8qxvc_UT-qB9gCfPhA1nJ_g5fST3BlbkFJ71XGUoHQL_kcjlCPiaWeplTHVRimvEsruXtSfTS14A"
+    },
+    "claude 3.5 sonnet": {
+      "type": "anthropic",
+      "auth": "api-key",
+      "base": "https://api.anthropic.com",
+      "apiKey": "YOUR_CLAUDE_API_KEY"
+    },
+    "deepseek R1": {
+      "type": "deepseek",
+      "auth": "api-key",
+      "base": "https://api.deepseek.ai",
+      "apiKey": "YOUR_DEEPSEEK_API_KEY"
+    }
+  },
+  "writingCharacters": [],
+  "writingTones": [],
+  "writingStyles": [],
+  "writingFormats": [],
+  "showDownloadLink": false,
+  "allowDarkModeToggle": true,
+  "allowSettingsModal": false,
+  "allowDatabaseModal": true,
+  "showTwitterLink": false,
+  "showFeedbackLink": false
+}
