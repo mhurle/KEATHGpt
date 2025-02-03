@@ -15,13 +15,13 @@
       "type": "custom",
       "auth": "api-key",
       "base": "https://your.internal.gpt4o.endpoint", 
-      "apiKey": "sk-xHRXsvj6Et-pkQsD8qxvc_UT-qB9gCfPhA1nJ_g5fST3BlbkFJ71XGUoHQL_kcjlCPiaWeplTHVRimvEsruXtSfTS14A"
+      "apiKey": "redacted"
     },
     "gpt o3 mini": {
       "type": "openai",
       "auth": "api-key",
       "base": "",
-      "apiKey": "sk-xHRXsvj6Et-pkQsD8qxvc_UT-qB9gCfPhA1nJ_g5fST3BlbkFJ71XGUoHQL_kcjlCPiaWeplTHVRimvEsruXtSfTS14A"
+      "apiKey": "redacted"
     },
     "claude 3.5 sonnet": {
       "type": "anthropic",

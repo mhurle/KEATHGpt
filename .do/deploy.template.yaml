@@ -1,7 +1,0 @@
-spec:
-  name: keathgpt
-  services:
-    - name: keathgpt
-      git:
-        branch: main
-        repo_clone_url: https://github.com/mhurle/keathgpt.git
