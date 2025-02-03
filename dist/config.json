@@ -1,0 +1,24 @@
+{
+    "defaultModel": "gpt4o",
+    "defaultType": "openai",
+    "defaultAuth": "api-key",
+    "defaultBase": "",
+    "defaultVersion": "",
+    "defaultKey": "sk-m4tLLp6vYGkBJ6doiwEylVdNpmg8ABE57sm-PU8cjGT3BlbkFJZ0ZhLTNTvHhYDBrfKsTdCTwSRMLo-f9AiD9Cw6c7gA",
+    "availableModels": [
+      { "value": "gpt4o", "label": "gpt4o" },
+      { "value": "gpt o3 mini", "label": "gpt o3 mini" },
+      { "value": "claude 3.5 sonnet", "label": "claude 3.5 sonnet" },
+      { "value": "deepseek R1", "label": "deepseek R1" }
+    ],
+    "writingCharacters": [],
+    "writingTones": [],
+    "writingStyles": [],
+    "writingFormats": [],
+    "showDownloadLink": false,
+    "allowDarkModeToggle": true,
+    "allowSettingsModal": false,
+    "allowDatabaseModal": true,
+    "showTwitterLink": false,
+    "showFeedbackLink": false
+  }
